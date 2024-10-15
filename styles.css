@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(35, 129, 252);
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+
+.navBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.taskContainer{
+    border-left: 3px solid rgb(35, 129, 252);
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: #aaff57;
+}
+
+.img{
+    width: 100%;
+}
